@@ -2,7 +2,7 @@ const otpGen = require("otp-generator")
 let otp = otpGen.generate(6, { digits: true, upperCaseAlphabets: false, lowerCaseAlphabets: false, specialChars: false })
 
 var sid = "ACac03127ea7da735d731254a9ab7f79ea";
-var auth_token = "b585b9b8ab0cc71380abdc83f6904c4c";
+var auth_token = "f8fb791a4478ebcb1ea450828bc6b695";
 
 
 var twilio = require("twilio")(sid, auth_token);
